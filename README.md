@@ -1,7 +1,5 @@
 # RAML Store
 
-
-
 ## Overview
 
 raml-store provides a simple storage API plus a persistence plugin which enables you to run the [RAML API Designer](https://github.com/mulesoft/api-designer) locally (rather than use the APIHub cloud service) and still be able to manage and collaborate on your design.
@@ -19,25 +17,14 @@ To start mongodb as background process:
 
 `cd /usr/local/mongodb`  (mongodb installation directory)
 
-
 `mongod --fork --logpath /var/log/mongodb.log`
 
-
-### Installing MongoDB Node.js Driver
-From the top-level directory (e.g. raml-store):
-
-`npm install mongodb`
-
-### Installing Express
+### Installing Express and MongoDB Node.js Driver
 From the top-level directory (e.g. raml-store):
 
 `npm install `
 
-    
-    
-    
-    
-  
+
 ## Running the Service
 From the top-level directory (e.g. raml-store):
 
